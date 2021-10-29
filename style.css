@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  background: rgb(142,170,172);
+  background: -moz-radial-gradient(circle, rgba(142,170,172,1) 0%, rgba(95,150,154,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(142,170,172,1) 0%, rgba(95,150,154,1) 100%);
+  background: radial-gradient(circle, rgba(142,170,172,1) 0%, rgba(95,150,154,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8eaaac",endColorstr="#5f969a",GradientType=1);
+}
+
+#canvas1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
